@@ -12,7 +12,7 @@ A better implementation of a repository for themes &amp; plugins for BetterDisco
 * Document **ALL** code contributions
   * Anything undocumented will be ignored until full documentation is provided
   * **TEST** your code first.  Do not blindly contribute.
-  * Do NOT do a pull request into master, do it on **[dev](https://github.com/IRDeNial/discord-hide-channel-list/tree/dev)** instead.
+  * Do NOT do a pull request into master, do it on **[dev](https://github.com/IRDeNial/BD-Even-Better-Repo/tree/dev)** instead.
     * Your pull requests will be merged into master at each itteration if accepted.
 
 ## Images

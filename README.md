@@ -8,6 +8,10 @@ A better implementation of a repository for themes &amp; plugins for BetterDisco
 3. Put it in your plugins directory (Just open it from the client, can vary between users).
 4. Restart BetterDiscord
 
+## Contributors
+* [IRDeNial](https://github.com/IRDeNial/)
+* [0mniscient](https://github.com/0mniscient/)
+
 ## Contribution Guidelines
 * Document **ALL** code contributions
   * Anything undocumented will be ignored until full documentation is provided
@@ -17,5 +21,5 @@ A better implementation of a repository for themes &amp; plugins for BetterDisco
 
 ## Images
 ![http://i.imgur.com/M8Wnm9U.png](http://i.imgur.com/M8Wnm9U.png)
-![http://i.imgur.com/NFy84TD.png](http://i.imgur.com/NFy84TD.png)
-![http://i.imgur.com/G49W8cM.png](http://i.imgur.com/G49W8cM.png)
+![http://i.imgur.com/9RPVKud.png](http://i.imgur.com/9RPVKud.png)
+![http://i.imgur.com/YHcmfJY.png](http://i.imgur.com/YHcmfJY.png)

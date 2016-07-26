@@ -1,6 +1,6 @@
 <?php
     /*
-      THIS FILE IS NOT GUARUNTEED TO BE UP TO DATE
+      THIS FILE IS NOT GUARANTEED TO BE UP TO DATE
       This file is used internally by the plugin to aggregate all plugins & themes into a single JSON string, passed to the plugin via a JSON request
     */
     

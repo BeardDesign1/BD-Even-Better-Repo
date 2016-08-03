@@ -4,8 +4,11 @@
       This file is used internally by the plugin to aggregate all plugins & themes into a single JSON string, passed to the plugin via a JSON request
     */
     
-    header("Access-Control-Allow-Origin: https://discordapp.com");
-
+    if(strpos($_SERVER['HTTP_ORIGIN'],'discordapp.com') || strpos($_SERVER['HTTP_ORIGIN'],'localhost.com')) {
+        header('Access-Control-Allow-Origin: '.$_SERVER['HTTP_ORIGIN']);
+    }
+    header('Content-Type: application/json');
+    
     $repos = Array(
         'plugins' => Array(
             Array(
@@ -113,6 +116,12 @@
             )
         ),
         'themes' => Array(
+            Array(
+                'name' => 'Discordify',
+                'author' => 'Nirewen',
+                'description' => '',
+                'url' => 'https://gist.githubusercontent.com/nirewen/a2078af9a41943ab19cf50e2944d1ca9/raw/f12e9d128b4e239d35c1c6f28a1f5f3e7baffd35/Discordify.theme.css'
+            ),
             Array(
                 'name' => 'Dark Souls',
                 'author' => 'Satan/Mondanzo',
@@ -379,7 +388,7 @@
             ),
             Array(
                 'name' => 'Casual Dark',
-                'author' => 'Top Bunk',
+                'author' => 'Quietness',
                 'description' => '',
                 'url' => 'https://github.com/Quietess/Casual-Dark/blob/master/CasualDark.css'
             )
@@ -387,4 +396,5 @@
     );
 
     echo(json_encode($repos));
+    die();
 ?>

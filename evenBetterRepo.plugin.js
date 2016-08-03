@@ -19,6 +19,7 @@ evenBetterRepo.prototype.getAuthor = function(){
 evenBetterRepo.prototype.load = function(){
     this.themePath = process.env.APPDATA + "\\BetterDiscord\\themes\\";
     this.pluginPath = process.env.APPDATA + "\\BetterDiscord\\plugins\\";
+    this.cssURL = 'https://raw.githubusercontent.com/IRDeNial/BD-Even-Better-Repo/master/ebr.css';
     this.repoURL = 'https://discord.md5.xyz/ebr/repoList.php';
     this.ebrCSS = '';
     this.repo = '';

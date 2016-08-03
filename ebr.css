@@ -1,0 +1,105 @@
+.bd-psm {
+    background-color: #2E3136;
+    box-shadow: 0 0 10px 5px transparent;
+    border: 1px solid transparent;
+	border-radius: 3px;
+}
+.ebr-container {
+    margin-top: 40px;
+}
+.ebr-container p.name {
+    color: #fff;
+    font-weight: bold;
+    float: left;
+    margin: 0;
+}
+.ebr-container p.description {
+    color: #DADADA;
+    margin: 0;
+    padding: 2px 0;
+    font-size: 14px;
+}
+.ebr-container  p.author {
+    color: #fff;
+    float: right;
+    margin: 0;
+}
+.ebr-plugin-item,
+.ebr-theme-item {
+    background-color: #fafafa;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    padding: 6px;
+    margin-bottom: 5px;
+}
+
+/* ScrollBar doesn't interfere with Discord scrollbars anymore*/
+.bd-psm .scroller-wrap .scroller::-webkit-scrollbar-track-piece { 
+    background-color: #27292D;
+}
+
+.bd-psm .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    background-color: #7289da;
+    background-clip: padding-box;
+    border: 3px solid #2E3136;
+    border-radius: 7px;
+}
+
+.bd-psm .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-clip: padding-box;
+    border: 3px solid #2E3136 !important;
+    border-radius: 7px;
+}
+.installed-button {
+    float: left;
+    border-radius: 3px;
+    background-color: #dadada;
+    color: #333333;
+    cursor:default;
+}
+.install-button {
+    float: left;
+    border-radius: 3px;
+    background-color: #7289da;
+    color: #fff;
+}
+.update-button {
+    float: left;
+    border-radius: 3px;
+    background-color: #da7272;
+    color: #fff;
+}
+.view-source-button {
+    float: right;
+    border-radius: 3px;
+    background-color: #82da72;
+    color: #ffffff;
+}
+.float-clear {
+    clear: both;
+}
+.ebr-topbar {
+    margin-bottom: 0 !important;
+}
+
+.ebr-themes p.name, .ebr-plugins p.name {
+    float: left;
+}
+.ebr-themes p.author, .ebr-plugins p.author {
+    float: right;
+}
+.ebr-themes p.description, .ebr-plugins p.description {
+    margin: 10px 0;
+}
+.ebr-themes p, .ebr-plugins p {
+    margin: 0;
+}
+
+#ebr-themes-pane .themes-header,
+#ebr-plugins-pane .plugins-header {
+    font-size: 21px;
+    text-align: center;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 5px;
+    margin: 0;
+}

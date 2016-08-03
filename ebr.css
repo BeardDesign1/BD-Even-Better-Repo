@@ -103,3 +103,10 @@
     padding-bottom: 5px;
     margin: 0;
 }
+
+.tab-bar.SIDE {
+  overflow-y: scroll !important;
+}
+.tab-bar.SIDE::-webkit-scrollbar {
+  width: 0px;
+}

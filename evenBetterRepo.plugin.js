@@ -57,14 +57,22 @@ evenBetterRepo.ebrCSS = `.bd-psm {
     padding: 6px;
     margin-bottom: 10px;
 }
-/* ScrollBar affects rest of Discord :( May want to make it not display but still able to scroll*/
+
+/* ScrollBar doesn't interfere with Discord scrollbars anymore*/
 .bd-psm .scroller-wrap .scroller::-webkit-scrollbar-track-piece { 
     background-color: #27292D;
 }
-.bd-psm .scroller-wrap .scroller::-webkit-scrollbar-thumb, .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+
+.bd-psm .scroller-wrap .scroller::-webkit-scrollbar-thumb {
     background-color: #7289da;
     background-clip: padding-box;
     border: 3px solid #2E3136;
+    border-radius: 7px;
+}
+
+.bd-psm .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-clip: padding-box;
+    border: 3px solid #2E3136 !important;
     border-radius: 7px;
 }
 

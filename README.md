@@ -29,6 +29,7 @@ Go into your BetterDiscord plugins list, and click "Explore" under the "Even Bet
 
 ## To Do List
 * Make theme & plugin list look better (ebr.css)
+* Add actual version checking so users won't always see an update button if there is no update
 * More error catching!
 * Mac implementation (Later)
 * Linux implementation (Even later)

@@ -1,6 +1,12 @@
 {
     "plugins": [
         {
+            "name": "BetterDiscord Beta Test",
+            "author": "Jiiks",
+            "description": "Enables certain beta features before they're implemented to BetterDiscord",
+            "url": "https://gist.githubusercontent.com/Jiiks/cd0ae9195ff42f0e79024170cb747e91/raw/betas.plugin.js"
+        },
+        {
             "name": "Hide Channels",
             "author": "Anxeal",
             "description": "",
@@ -24,6 +30,12 @@
             "description": "Copies Code from Code Blocks with a Button",
             "url": "https://raw.githubusercontent.com/Finicalmist/CopyCode/master/copyCode.plugin.js"
         }, 
+        {
+            "name": "Better Plugin Repo",
+            "author": "samfun123",
+            "description": "A upgraded plugin repository for #plugin-repo. A preview of it here: https://imgur.com/8fAgy1Y Update: Made installation happen automatically. (Not to be affiliated with EvenBetterRepo)",
+            "url": "https://raw.githubusercontent.com/samfun123/script-storage/master/betterdiscord/plugins/betterRepo.plugin.js"
+        },
         {
             "name": "Channel Collapse Button",
             "author": "IRDeNial",
@@ -77,12 +89,25 @@
             "author": "Jiiks",
             "description": "Add a clock to your client. Use the #clockPluginClock selector to style it yourself",
             "url": "https://raw.githubusercontent.com/Jiiks/BetterDiscordApp/master/Plugins/clock.plugin.js"
-        }, {
+        }, 
+        {
             "name": "Replyer",
             "author": "Hammock",
             "description": "@ Reply someone with a button",
             "url": "https://raw.githubusercontent.com/cosmicsalad/Discord-Themes-and-Plugins/master/plugins/replyer.plugin.js"
         }, 
+        {
+            "name": "Collapsible Embeds",
+            "author": "shtrih",
+            "description": "Creates caret to hide image/video previews near each link",
+            "url": "https://gist.githubusercontent.com/shtrih/59a8be1f9ff53f0499c2/raw/CollapsibleEmbeds.plugin.js"
+        },
+        {
+            "name": "EmbedAV",
+            "author": "shtrih",
+            "description": "Creates <video> or <audio> for links and attachments.",
+            "url": "https://gist.githubusercontent.com/shtrih/8a72a36d513ec704c7a9/raw/EmbedAV.plugin.js"
+        },
         {
             "name": "Quicksave",
             "author": "Kosshi",
@@ -94,13 +119,25 @@
             "author": "Hammock",
             "description": "Drag & Drop rearrange your list of favourited emotes",
             "url": "https://raw.githubusercontent.com/cosmicsalad/Discord-Themes-and-Plugins/master/plugins/emoteSorter.plugin.js"
-        }, 
+        },  
+        {
+            "name": "detTube",
+            "author": "megamit",
+            "description": "Deatch youtube to make it moveable",
+            "url": "https://gist.githubusercontent.com/megamit/29757d819de5356595271cebb577f6a8/raw/DetachableYoutube.plugin.js" 
+        },
         {
             "name": "Switcher Plugin",
             "author": "Ciaran",
             "description": "Switch channels quickly via the keyboard. Just press ctrl+k",
             "url": "https://raw.githubusercontent.com/ciaran/bd-switcher/master/switcher.plugin.js"
-        }, 
+        },
+        {
+            "name": "Search Plugin",
+            "author": "megamit",
+            "description": "The return of ctrl+f!  Until at least discord devs decide to add it",
+            "url": "https://gist.githubusercontent.com/megamit/a676acb2f34b201e364858aca299fb44/raw/search.plugin.js"
+        },
         {
             "name": "Direct Media Converter",
             "author": "samfun123",
@@ -112,12 +149,6 @@
             "author": "samfun123",
             "description": "Checks for common link shorteners and converts them to the original link.",
             "url": "https://raw.githubusercontent.com/samfun123/script-storage/master/betterdiscord/plugins/unshortenLinks.plugin.js"
-        }, 
-        {
-            "name": "Better Plugin Repo",
-            "author": "samfun123",
-            "description": "A upgraded plugin repository for #plugin-repo. A preview of it here: https://imgur.com/8fAgy1Y Update: Made installation happen automatically.",
-            "url": "https://raw.githubusercontent.com/samfun123/script-storage/master/betterdiscord/plugins/betterRepo.plugin.js"
         }
     ],
     "themes": [

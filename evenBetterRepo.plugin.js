@@ -6,7 +6,7 @@ evenBetterRepo.prototype.getName = function(){
     return 'Even Better Repo';
 };
 evenBetterRepo.prototype.getDescription = function(){
-    return 'Easily access theme & plugin repository from within Discord client';
+    return 'Easily access theme & plugin repository from within Discord client<br>Want to add your plugin or theme?  Submit a pull request here: <a href="https://github.com/IRDeNial/BD-Even-Better-Repo/tree/dev/" target="_BLANK">https://github.com/IRDeNial/BD-Even-Better-Repo/tree/dev/</a>';
 };
 evenBetterRepo.prototype.getVersion = function(){
     return '2.0.0';
@@ -19,10 +19,8 @@ evenBetterRepo.prototype.getAuthor = function(){
 evenBetterRepo.prototype.load = function(){
     this.themePath = process.env.APPDATA + "\\BetterDiscord\\themes\\";
     this.pluginPath = process.env.APPDATA + "\\BetterDiscord\\plugins\\";
-    //this.cssURL = 'https://discord.md5.xyz/ebr/ebr.css';
     this.cssURL = 'https://raw.githubusercontent.com/IRDeNial/BD-Even-Better-Repo/master/ebr.css';
-    this.repoURL = 'https://discord.md5.xyz/ebr/repo.json';
-    //this.repoURL = 'https://raw.githubusercontent.com/IRDeNial/BD-Even-Better-Repo/master/repo.json';
+    this.repoURL = 'https://raw.githubusercontent.com/IRDeNial/BD-Even-Better-Repo/master/repo.json';
     this.ebrCSS = '';
     this.repo = '';
     this.useHTTP = false;

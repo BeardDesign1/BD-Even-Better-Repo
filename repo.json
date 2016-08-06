@@ -252,7 +252,7 @@
         }, 
         {
             "name": "IOS Switches",
-            "author": "mat3",
+            "author": "BeardDesign",
             "description": "Use IOS switches instead of checkboxes",
             "url": "https://raw.githubusercontent.com/BeardDesign1/Ios-switches/themes/IOS_Switches.theme.css",
             "preview": ""
@@ -412,7 +412,7 @@
             "preview": ""
         }, 
         {
-            "name": "Material Design",
+            "name": "Beard's Material Theme",
             "author": "BeardDesign",
             "description": "http://www.beard-design.com/discord-material-theme.html",
             "url": "https://raw.githubusercontent.com/BeardDesign1/Material-design-theme/themes/Beard's-Material-theme-for-Discord.theme.css",

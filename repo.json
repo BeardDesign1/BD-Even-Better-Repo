@@ -1,325 +1,499 @@
 {
-    "plugins": [{
-        "name": "Renamer",
-        "author": "Mitchell",
-        "description": "Give anyone a nickname that only you can see simply by right clicking on them.",
-        "url": "https:\/\/gist.github.com\/megamit\/7a686742c2768f34cf4d83e1055e9375"
-    }, {
-        "name": "Copy Code",
-        "author": "Finicalmist",
-        "description": "Copies Code from Code Blocks with a Button",
-        "url": "https:\/\/github.com\/Finicalmist\/CopyCode\/blob\/master\/copyCode.plugin.js"
-    }, {
-        "name": "Channel Collapse Button",
-        "author": "IRDeNial",
-        "description": "Create a button that allows for hiding of channel list",
-        "url": "https:\/\/github.com\/IRDeNial\/discord-channel-collapse-button\/blob\/master\/channelcollapsebutton.plugin.js"
-    }, {
-        "name": "Autoplay GIFS",
-        "author": "Jiiks",
-        "description": "Automatically play gifs without having to hover",
-        "url": "https:\/\/github.com\/Jiiks\/BetterDiscordApp\/blob\/master\/Plugins\/AutoPlayGifs.plugin.js"
-    }, {
-        "name": "Custom role colour",
-        "author": "Jiiks, Pohky",
-        "description": "Set any colour as role colour",
-        "url": "https:\/\/github.com\/Jiiks\/BetterDiscordApp\/blob\/master\/Plugins\/customRoleColour.plugin.js"
-    }, {
-        "name": "Media Support",
-        "author": "Jiiks",
-        "description": "Add support for html5 media",
-        "url": "https:\/\/github.com\/Jiiks\/BetterDiscordApp\/blob\/master\/Plugins\/mediaSupport.plugin.js"
-    }, {
-        "name": "Server\/Channel Sorter",
-        "author": "CosmicSalad",
-        "description": "Drag and Drop to reorder the list of servers and channels",
-        "url": "https:\/\/github.com\/cosmicsalad\/Discord-Themes-and-Plugins\/blob\/master\/plugins\/sorter.plugin.js"
-    }, {
-        "name": "Avatar hover",
-        "author": "noVaLue",
-        "description": "When hovering, show a resized version of the avatar. Use Ctrl \/ Ctrl+Shift",
-        "url": "https:\/\/github.com\/iVEnoVaLue\/BetterPlugins\/blob\/master\/plugins\/avatar.plugin.js"
-    }, {
-        "name": "Double click edit",
-        "author": "Jiiks",
-        "description": "Double click your messages to edit them - quite hacky",
-        "url": "https:\/\/github.com\/Jiiks\/BetterDiscordApp\/blob\/master\/Plugins\/dblClickEdit.plugin.js"
-    }, {
-        "name": "Emote Blacklist",
-        "author": "Jiiks",
-        "description": "Blacklist emotes you don't want to see",
-        "url": "https:\/\/github.com\/Jiiks\/BetterDiscordApp\/blob\/master\/Plugins\/emoteBlacklist.plugin.js"
-    }, {
-        "name": "Digital Clock",
-        "author": "Jiiks",
-        "description": "Add a clock to your client. Use the #clockPluginClock selector to style it yourself",
-        "url": "https:\/\/github.com\/Jiiks\/BetterDiscordApp\/blob\/master\/Plugins\/clock.plugin.js"
-    }, {
-        "name": "Replyer",
-        "author": "Hammock",
-        "description": "@ Reply someone with a button",
-        "url": "https:\/\/github.com\/cosmicsalad\/Discord-Themes-and-Plugins\/blob\/master\/plugins\/replyer.plugin.js"
-    }, {
-        "name": "Quicksave",
-        "author": "Kosshi",
-        "description": "Lets you save images fast with a short random name (Or the original if you want to)",
-        "url": "https:\/\/github.com\/kosshishub\/CompactGuilds-BD-plugin\/blob\/master\/CompactGuilds.plugin.js"
-    }, {
-        "name": "Fave Emote Sorter",
-        "author": "Hammock",
-        "description": "Drag & Drop rearrange your list of favourited emotes",
-        "url": "https:\/\/github.com\/cosmicsalad\/Discord-Themes-and-Plugins\/blob\/master\/plugins\/emoteSorter.plugin.js",
-        "0": "https:\/\/rawgit.com\/cosmicsalad\/Discord-Themes-and-Plugins\/master\/plugins\/emoteSorter.plugin.js"
-    }, {
-        "name": "Switcher Plugin",
-        "author": "Ciaran",
-        "description": "Switch channels quickly via the keyboard. Just press ctrl+k",
-        "url": "https:\/\/github.com\/ciaran\/bd-switcher\/blob\/master\/switcher.plugin.js"
-    }, {
-        "name": "Direct Media Converter",
-        "author": "samfun123",
-        "description": "Tries to convert most direct image links to embedded images.",
-        "url": "https:\/\/github.com\/samfun123\/script-storage\/blob\/master\/betterdiscord\/plugins\/directMedia.plugin.js"
-    }, {
-        "name": "Automatic Link Unshortener",
-        "author": "samfun123",
-        "description": "Checks for common link shorteners and converts them to the original link.",
-        "url": "https:\/\/github.com\/samfun123\/script-storage\/blob\/master\/betterdiscord\/plugins\/unshortenLinks.plugin.js"
-    }, {
-        "name": "Better Plugin Repo",
-        "author": "samfun123",
-        "description": "A upgraded plugin repository for #plugin-repo. A preview of it here: https:\/\/imgur.com\/8fAgy1Y Update: Made installation happen automatically.",
-        "url": "https:\/\/github.com\/samfun123\/script-storage\/blob\/master\/betterdiscord\/plugins\/betterRepo.plugin.js"
-    }],
-    "themes": [{
-        "name": "Discordify",
-        "author": "Nirewen",
-        "description": "",
-        "url": "https:\/\/gist.githubusercontent.com\/nirewen\/a2078af9a41943ab19cf50e2944d1ca9\/raw\/f12e9d128b4e239d35c1c6f28a1f5f3e7baffd35\/Discordify.theme.css"
-    }, {
-        "name": "Dark Souls",
-        "author": "Satan\/Mondanzo",
-        "description": "",
-        "url": "https:\/\/github.com\/Mondanzo\/GameThemes-BetterDiscord\/blob\/master\/dark_souls.theme.css"
-    }, {
-        "name": "Ponyo",
-        "author": "uri",
-        "description": "",
-        "url": "https:\/\/github.com\/cmpdc\/BDTheme-Ponyo\/blob\/master\/Discord_Ponyo.theme.css"
-    }, {
-        "name": "Simplistic CSS",
-        "author": "den",
-        "description": "Dubai Orange",
-        "url": "https:\/\/github.com\/denBot\/Simplistic-CSS\/blob\/master\/DubaiOrange.theme.css"
-    }, {
-        "name": "Simplistic CSS",
-        "author": "den",
-        "description": "Green Transparent",
-        "url": "https:\/\/github.com\/denBot\/Simplistic-CSS\/blob\/master\/Green.theme.css"
-    }, {
-        "name": "Simplistic CSS",
-        "author": "den",
-        "description": "Maware Shade",
-        "url": "https:\/\/github.com\/denBot\/Simplistic-CSS\/blob\/master\/MawaresShade.theme.css"
-    }, {
-        "name": "Simplistic CSS",
-        "author": "den",
-        "description": "Oceanic Blue",
-        "url": "https:\/\/github.com\/denBot\/Simplistic-CSS\/blob\/master\/OceanicBlue.theme.css"
-    }, {
-        "name": "Simplistic CSS",
-        "author": "den",
-        "description": "Vibrant Pink",
-        "url": "https:\/\/github.com\/denBot\/Simplistic-CSS\/blob\/master\/Pink.theme.css"
-    }, {
-        "name": "Simplistic CSS",
-        "author": "den",
-        "description": "Simplistic Blue",
-        "url": "https:\/\/github.com\/denBot\/Simplistic-CSS\/blob\/master\/Simplified-Blue.theme.css"
-    }, {
-        "name": "Simplistic CSS",
-        "author": "den",
-        "description": "Simplistic Green",
-        "url": "https:\/\/github.com\/denBot\/Simplistic-CSS\/blob\/master\/Simplified-Green.theme.css"
-    }, {
-        "name": "OriginalModern",
-        "author": "mat3",
-        "description": "",
-        "url": "https:\/\/github.com\/mathiaslsn\/OriginalModern\/blob\/master\/mat.theme.css"
-    }, {
-        "name": "IOS Switches",
-        "author": "mat3",
-        "description": "Use IOS switches instead of checkboxes",
-        "url": "https:\/\/github.com\/BeardDesign1\/Ios-switches\/blob\/themes\/IOS_Switches.theme.css"
-    }, {
-        "name": "Cyan Firewatch",
-        "author": "den",
-        "description": "",
-        "url": "https:\/\/github.com\/denBot\/Cyan-Firewatch\/blob\/master\/cyan-firewatch.theme.css"
-    }, {
-        "name": "Modal Animations",
-        "author": "BeardDesign",
-        "description": "Animation 1",
-        "url": "https:\/\/github.com\/BeardDesign1\/discord-modal-animations\/blob\/themes\/modal-anim-1.theme.css"
-    }, {
-        "name": "Modal Animations",
-        "author": "BeardDesign",
-        "description": "Animation 2",
-        "url": "https:\/\/github.com\/BeardDesign1\/discord-modal-animations\/blob\/themes\/modal-anim-2.theme.css"
-    }, {
-        "name": "Modal Animations",
-        "author": "BeardDesign",
-        "description": "Animation 3",
-        "url": "https:\/\/github.com\/BeardDesign1\/discord-modal-animations\/blob\/themes\/modal-anim-3.theme.css"
-    }, {
-        "name": "Modal Animations",
-        "author": "BeardDesign",
-        "description": "Animation 4",
-        "url": "https:\/\/github.com\/BeardDesign1\/discord-modal-animations\/blob\/themes\/modal-anim-4.theme.css"
-    }, {
-        "name": "Modal Animations",
-        "author": "BeardDesign",
-        "description": "Animation 5",
-        "url": "https:\/\/github.com\/BeardDesign1\/discord-modal-animations\/blob\/themes\/modal-anim-5.theme.css"
-    }, {
-        "name": "Modal Animations",
-        "author": "BeardDesign",
-        "description": "Animation 6",
-        "url": "https:\/\/github.com\/BeardDesign1\/discord-modal-animations\/blob\/themes\/modal-anim-6.theme.css"
-    }, {
-        "name": "Modal Animations",
-        "author": "BeardDesign",
-        "description": "Animation 7",
-        "url": "https:\/\/github.com\/BeardDesign1\/discord-modal-animations\/blob\/themes\/modal-anim-7.theme.css"
-    }, {
-        "name": "Modal Animations",
-        "author": "BeardDesign",
-        "description": "Animation 8",
-        "url": "https:\/\/github.com\/BeardDesign1\/discord-modal-animations\/blob\/themes\/modal-anim-8.theme.css"
-    }, {
-        "name": "Material Design Switches",
-        "author": "BeardDesign",
-        "description": "Material design switches instead of checkboxes",
-        "url": "https:\/\/github.com\/BeardDesign1\/Material-design-switches\/blob\/themes\/Material_Switches.theme.css"
-    }, {
-        "name": "MaterialCord",
-        "author": "BlenderMachine",
-        "description": "",
-        "url": "https:\/\/github.com\/gustarrini\/MaterialCord\/blob\/master\/materialcord.theme.css"
-    }, {
-        "name": "Modern N' Cozy",
-        "author": "Narugokyu",
-        "description": "",
-        "url": "https:\/\/github.com\/Narugokyu\/modern-n-cozy\/blob\/master\/modern-n-cozy.theme.css"
-    }, {
-        "name": "Small Members Tab",
-        "author": "BeartDesign",
-        "description": "",
-        "url": "https:\/\/github.com\/BeardDesign1\/small-members-tab\/blob\/themes\/small-members-tab.theme.css"
-    }, {
-        "name": "Discord ReBorn",
-        "author": "Zerthox",
-        "description": "Amber",
-        "url": "https:\/\/github.com\/Zerthox\/DiscordReBorn\/blob\/master\/DiscordReBorn_Amber.theme.css"
-    }, {
-        "name": "Discord ReBorn",
-        "author": "Zerthox",
-        "description": "Amethyst",
-        "url": "https:\/\/github.com\/Zerthox\/DiscordReBorn\/blob\/master\/DiscordReBorn_Amethyst.theme.css"
-    }, {
-        "name": "Discord ReBorn",
-        "author": "Zerthox",
-        "description": "Emerald",
-        "url": "https:\/\/github.com\/Zerthox\/DiscordReBorn\/blob\/master\/DiscordReBorn_Emerald.theme.css"
-    }, {
-        "name": "Discord ReBorn",
-        "author": "Zerthox",
-        "description": "Remove Shadows",
-        "url": "https:\/\/github.com\/Zerthox\/DiscordReBorn\/blob\/master\/DiscordReBorn_Remove_Shadows.theme.css"
-    }, {
-        "name": "Discord ReBorn",
-        "author": "Zerthox",
-        "description": "Ruby",
-        "url": "https:\/\/github.com\/Zerthox\/DiscordReBorn\/blob\/master\/DiscordReBorn_Ruby.theme.css"
-    }, {
-        "name": "Discord ReBorn",
-        "author": "Zerthox",
-        "description": "Sapphire",
-        "url": "https:\/\/github.com\/Zerthox\/DiscordReBorn\/blob\/master\/DiscordReBorn_Sapphire.theme.css"
-    }, {
-        "name": "Akame",
-        "author": "llcoll",
-        "description": "",
-        "url": "https:\/\/github.com\/llcoll\/Discord-Themes\/blob\/master\/Themes\/Akame\/Akame.theme.css"
-    }, {
-        "name": "Overwatch",
-        "author": "Matt",
-        "description": "",
-        "url": "https:\/\/github.com\/Matthaz\/Overwatch_theme\/blob\/master\/Overwatch.theme.css"
-    }, {
-        "name": "Shiny Octo Waffle",
-        "author": "Kappa123",
-        "description": "",
-        "url": "https:\/\/github.com\/PepeLUL\/Shiny-Octo-Waffle-Theme\/blob\/master\/Shiny.theme.css"
-    }, {
-        "name": "Material Design",
-        "author": "BeardDesign",
-        "description": "http:\/\/www.beard-design.com\/discord-material-theme.html",
-        "url": "https:\/\/github.com\/BeardDesign1\/Material-design-theme\/blob\/themes\/Beard's-Material-theme-for-Discord.theme.css"
-    }, {
-        "name": "Esdeath",
-        "author": "llcoll",
-        "description": "",
-        "url": "https:\/\/github.com\/llcoll\/Discord-Themes\/blob\/master\/Themes\/Esdeath\/Esdeath.theme.css"
-    }, {
-        "name": "Space Nova",
-        "author": "Narugokyu",
-        "description": "",
-        "url": "https:\/\/github.com\/Narugokyu\/nova-theme\/blob\/master\/space_nova.theme.css"
-    }, {
-        "name": "Re:Zero",
-        "author": "TimcanpyCC",
-        "description": "",
-        "url": "https:\/\/github.com\/CurimuChizu\/CC-Themes\/blob\/master\/CC-Themes\/ReZero.theme.css"
-    }, {
-        "name": "Witcher 3",
-        "author": "Mitchell",
-        "description": "",
-        "url": "https:\/\/github.com\/jadeonking\/Witcher-3-Theme-for-Discord\/blob\/master\/Witcher3.theme.css"
-    }, {
-        "name": "Dat Discord",
-        "author": "IceCleaver",
-        "description": "",
-        "url": "https:\/\/github.com\/Viniuau\/Dat-Discord\/blob\/master\/Dat%20Discord.theme.css"
-    }, {
-        "name": "Full Light",
-        "author": "maple",
-        "description": "",
-        "url": "https:\/\/github.com\/mrmaple240\/Full-Light-Theme\/blob\/master\/FullLightTheme.theme.css"
-    }, {
-        "name": "Red n Black",
-        "author": "TimcanpyCC",
-        "description": "",
-        "url": "https:\/\/github.com\/CurimuChizu\/CC-Themes\/blob\/master\/CC-Themes\/Red.n.Black.theme.css"
-    }, {
-        "name": "Shades of Red",
-        "author": "Prominency",
-        "description": "",
-        "url": "https:\/\/github.com\/trueprominency\/Shades-of-Red-Theme\/blob\/master\/shades-of-red.theme.css"
-    }, {
-        "name": "Thin Dark",
-        "author": "Snazzah",
-        "description": "",
-        "url": "https:\/\/github.com\/SnazzyPine25\/Better-Discord-Themes\/blob\/master\/Themes\/Thin-Dark\/ThinDark.theme.css"
-    }, {
-        "name": "Clear Discord",
-        "author": "Dddsasul",
-        "description": "",
-        "url": "https:\/\/github.com\/Dddsasul\/TeamKappa-theme\/blob\/master\/ClearDiscord.theme.css"
-    }, {
-        "name": "Casual Dark",
-        "author": "Quietness",
-        "description": "",
-        "url": "https:\/\/github.com\/Quietess\/Casual-Dark\/blob\/master\/CasualDark.css"
-    }]
+    "plugins": [
+        {
+            "name": "BetterDiscord Beta Test",
+            "author": "Jiiks",
+            "description": "Enables certain beta features before they're implemented to BetterDiscord",
+            "url": "https://gist.githubusercontent.com/Jiiks/cd0ae9195ff42f0e79024170cb747e91/raw/betas.plugin.js"
+        },
+        {
+            "name": "Hide Channels",
+            "author": "Anxeal",
+            "description": "",
+            "url": "https://gist.githubusercontent.com/Anxeal/14bc24d30543c3ecd789ff1cfc323507/raw/HideChannel.plugin.js"
+        },
+        {
+            "name": "Hide Images",
+            "author": "Anxeal",
+            "description": "Adds a button to the right-click menu to hide images on certain servers and channels",
+            "url": "https://raw.githubusercontent.com/Anxeal/BDEnhancements/master/plugins/HideImages.plugin.js"
+        },
+        {
+            "name": "Renamer",
+            "author": "Mitchell",
+            "description": "Give anyone a nickname that only you can see simply by right clicking on them.",
+            "url": "https://gist.githubusercontent.com/megamit/7a686742c2768f34cf4d83e1055e9375/raw/renamer.plugin.js"
+        }, 
+        {
+            "name": "Copy Code",
+            "author": "Finicalmist",
+            "description": "Copies Code from Code Blocks with a Button",
+            "url": "https://raw.githubusercontent.com/Finicalmist/CopyCode/master/copyCode.plugin.js"
+        }, 
+        {
+            "name": "Better Plugin Repo",
+            "author": "samfun123",
+            "description": "A upgraded plugin repository for #plugin-repo. A preview of it here: https://imgur.com/8fAgy1Y Update: Made installation happen automatically. (Not to be affiliated with EvenBetterRepo)",
+            "url": "https://raw.githubusercontent.com/samfun123/script-storage/master/betterdiscord/plugins/betterRepo.plugin.js"
+        },
+        {
+            "name": "Channel Collapse Button",
+            "author": "IRDeNial",
+            "description": "Create a button that allows for hiding of channel list",
+            "url": "https://raw.githubusercontent.com/IRDeNial/discord-channel-collapse-button/master/channelcollapsebutton.plugin.js"
+        }, 
+        {
+            "name": "Autoplay GIFS",
+            "author": "Jiiks",
+            "description": "Automatically play gifs without having to hover",
+            "url": "https://raw.githubusercontent.com/Jiiks/BetterDiscordApp/master/Plugins/AutoPlayGifs.plugin.js"
+        }, 
+        {
+            "name": "Custom role colour",
+            "author": "Jiiks, Pohky",
+            "description": "Set any colour as role colour",
+            "url": "https://raw.githubusercontent.com/Jiiks/BetterDiscordApp/master/Plugins/customRoleColour.plugin.js"
+        }, 
+        {
+            "name": "Media Support",
+            "author": "Jiiks",
+            "description": "Add support for html5 media",
+            "url": "https://raw.githubusercontent.com/Jiiks/BetterDiscordApp/master/Plugins/mediaSupport.plugin.js"
+        }, 
+        {
+            "name": "Server/Channel Sorter",
+            "author": "CosmicSalad",
+            "description": "Drag and Drop to reorder the list of servers and channels",
+            "url": "https://raw.githubusercontent.com/cosmicsalad/Discord-Themes-and-Plugins/master/plugins/sorter.plugin.js"
+        }, 
+        {
+            "name": "Avatar hover",
+            "author": "noVaLue",
+            "description": "When hovering, show a resized version of the avatar. Use Ctrl / Ctrl+Shift",
+            "url": "https://raw.githubusercontent.com/iVEnoVaLue/BetterPlugins/master/plugins/avatar.plugin.js"
+        }, 
+        {
+            "name": "Double click edit",
+            "author": "Jiiks",
+            "description": "Double click your messages to edit them - quite hacky",
+            "url": "https://raw.githubusercontent.com/Jiiks/BetterDiscordApp/master/Plugins/dblClickEdit.plugin.js"
+        }, 
+        {
+            "name": "Emote Blacklist",
+            "author": "Jiiks",
+            "description": "Blacklist emotes you don't want to see",
+            "url": "https://raw.githubusercontent.com/Jiiks/BetterDiscordApp/master/Plugins/emoteBlacklist.plugin.js"
+        },
+        {
+            "name": "Digital Clock",
+            "author": "Jiiks",
+            "description": "Add a clock to your client. Use the #clockPluginClock selector to style it yourself",
+            "url": "https://raw.githubusercontent.com/Jiiks/BetterDiscordApp/master/Plugins/clock.plugin.js"
+        }, 
+        {
+            "name": "Replyer",
+            "author": "Hammock",
+            "description": "@ Reply someone with a button",
+            "url": "https://raw.githubusercontent.com/cosmicsalad/Discord-Themes-and-Plugins/master/plugins/replyer.plugin.js"
+        }, 
+        {
+            "name": "Collapsible Embeds",
+            "author": "shtrih",
+            "description": "Creates caret to hide image/video previews near each link",
+            "url": "https://gist.githubusercontent.com/shtrih/59a8be1f9ff53f0499c2/raw/CollapsibleEmbeds.plugin.js"
+        },
+        {
+            "name": "EmbedAV",
+            "author": "shtrih",
+            "description": "Creates <video> or <audio> for links and attachments.",
+            "url": "https://gist.githubusercontent.com/shtrih/8a72a36d513ec704c7a9/raw/EmbedAV.plugin.js"
+        },
+        {
+            "name": "Quicksave",
+            "author": "Kosshi",
+            "description": "Lets you save images fast with a short random name (Or the original if you want to)",
+            "url": "https://raw.githubusercontent.com/kosshishub/CompactGuilds-BD-plugin/master/CompactGuilds.plugin.js"
+        }, 
+        {
+            "name": "Fave Emote Sorter",
+            "author": "Hammock",
+            "description": "Drag & Drop rearrange your list of favourited emotes",
+            "url": "https://raw.githubusercontent.com/cosmicsalad/Discord-Themes-and-Plugins/master/plugins/emoteSorter.plugin.js"
+        },  
+        {
+            "name": "detTube",
+            "author": "megamit",
+            "description": "Deatch youtube to make it moveable",
+            "url": "https://gist.githubusercontent.com/megamit/29757d819de5356595271cebb577f6a8/raw/DetachableYoutube.plugin.js" 
+        },
+        {
+            "name": "Switcher Plugin",
+            "author": "Ciaran",
+            "description": "Switch channels quickly via the keyboard. Just press ctrl+k",
+            "url": "https://raw.githubusercontent.com/ciaran/bd-switcher/master/switcher.plugin.js"
+        },
+        {
+            "name": "Search Plugin",
+            "author": "megamit",
+            "description": "The return of ctrl+f!  Until at least discord devs decide to add it",
+            "url": "https://gist.githubusercontent.com/megamit/a676acb2f34b201e364858aca299fb44/raw/search.plugin.js"
+        },
+        {
+            "name": "Direct Media Converter",
+            "author": "samfun123",
+            "description": "Tries to convert most direct image links to embedded images.",
+            "url": "https://raw.githubusercontent.com/samfun123/script-storage/master/betterdiscord/plugins/directMedia.plugin.js"
+        }, 
+        {
+            "name": "Automatic Link Unshortener",
+            "author": "samfun123",
+            "description": "Checks for common link shorteners and converts them to the original link.",
+            "url": "https://raw.githubusercontent.com/samfun123/script-storage/master/betterdiscord/plugins/unshortenLinks.plugin.js"
+        }
+    ],
+    "themes": [
+        {
+            "name": "Titlebar",
+            "author": "BeardDesign",
+            "description": "Add a titlebar to the top of your window :)",
+            "url": "https://raw.githubusercontent.com/BeardDesign1/Titlebar/master/Titlebar.theme.css",
+            "preview": ""
+        },
+        {
+            "name": "Sleeping Beauty",
+            "author": "maple",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/mrmaple240/Sleeping-Beauty/master/sleepingbeauty.theme.css",
+            "preview": ""
+        },
+        {
+            "name": "Discord Reborn",
+            "author": "Omniscient",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/0mniscient/Discord-Themes/master/Themes/Discord%20Reborn.theme.css",
+            "preview": ""
+        },
+        {
+            "name": "Discordify",
+            "author": "Nirewen",
+            "description": "",
+            "url": "https://gist.githubusercontent.com/nirewen/a2078af9a41943ab19cf50e2944d1ca9/raw/Discordify.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Dark Souls",
+            "author": "Satan/Mondanzo",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/Mondanzo/GameThemes-BetterDiscord/master/dark_souls.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Ponyo",
+            "author": "uri",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/cmpdc/BDTheme-Ponyo/master/Discord_Ponyo.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Simplistic CSS",
+            "author": "den",
+            "description": "Dubai Orange",
+            "url": "https://raw.githubusercontent.com/denBot/Simplistic-CSS/master/DubaiOrange.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Simplistic CSS",
+            "author": "den",
+            "description": "Green Transparent",
+            "url": "https://raw.githubusercontent.com/denBot/Simplistic-CSS/master/Green.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Simplistic CSS",
+            "author": "den",
+            "description": "Maware Shade",
+            "url": "https://raw.githubusercontent.com/denBot/Simplistic-CSS/master/MawaresShade.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Simplistic CSS",
+            "author": "den",
+            "description": "Oceanic Blue",
+            "url": "https://raw.githubusercontent.com/denBot/Simplistic-CSS/master/OceanicBlue.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Simplistic CSS",
+            "author": "den",
+            "description": "Vibrant Pink",
+            "url": "https://raw.githubusercontent.com/denBot/Simplistic-CSS/master/Pink.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Simplistic CSS",
+            "author": "den",
+            "description": "Simplistic Blue",
+            "url": "https://raw.githubusercontent.com/denBot/Simplistic-CSS/master/Simplified-Blue.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Simplistic CSS",
+            "author": "den",
+            "description": "Simplistic Green",
+            "url": "https://raw.githubusercontent.com/denBot/Simplistic-CSS/master/Simplified-Green.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "OriginalModern",
+            "author": "mat3",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/mathiaslsn/OriginalModern/master/mat.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "IOS Switches",
+            "author": "mat3",
+            "description": "Use IOS switches instead of checkboxes",
+            "url": "https://raw.githubusercontent.com/BeardDesign1/Ios-switches/themes/IOS_Switches.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Cyan Firewatch",
+            "author": "den",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/denBot/Cyan-Firewatch/master/cyan-firewatch.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Modal Animations",
+            "author": "BeardDesign",
+            "description": "Animation 1",
+            "url": "https://raw.githubusercontent.com/BeardDesign1/discord-modal-animations/themes/modal-anim-1.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Modal Animations",
+            "author": "BeardDesign",
+            "description": "Animation 2",
+            "url": "https://raw.githubusercontent.com/BeardDesign1/discord-modal-animations/themes/modal-anim-2.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Modal Animations",
+            "author": "BeardDesign",
+            "description": "Animation 3",
+            "url": "https://raw.githubusercontent.com/BeardDesign1/discord-modal-animations/themes/modal-anim-3.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Modal Animations",
+            "author": "BeardDesign",
+            "description": "Animation 4",
+            "url": "https://raw.githubusercontent.com/BeardDesign1/discord-modal-animations/themes/modal-anim-4.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Modal Animations",
+            "author": "BeardDesign",
+            "description": "Animation 5",
+            "url": "https://raw.githubusercontent.com/BeardDesign1/discord-modal-animations/themes/modal-anim-5.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Modal Animations",
+            "author": "BeardDesign",
+            "description": "Animation 6",
+            "url": "https://raw.githubusercontent.com/BeardDesign1/discord-modal-animations/themes/modal-anim-6.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Modal Animations",
+            "author": "BeardDesign",
+            "description": "Animation 7",
+            "url": "https://raw.githubusercontent.com/BeardDesign1/discord-modal-animations/themes/modal-anim-7.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Modal Animations",
+            "author": "BeardDesign",
+            "description": "Animation 8",
+            "url": "https://raw.githubusercontent.com/BeardDesign1/discord-modal-animations/themes/modal-anim-8.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Material Design Switches",
+            "author": "BeardDesign",
+            "description": "Material design switches instead of checkboxes",
+            "url": "https://raw.githubusercontent.com/BeardDesign1/Material-design-switches/themes/Material_Switches.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "MaterialCord",
+            "author": "BlenderMachine",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/gustarrini/MaterialCord/master/materialcord.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Modern N' Cozy",
+            "author": "Narugokyu",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/Narugokyu/modern-n-cozy/master/modern-n-cozy.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Small Members Tab",
+            "author": "BeartDesign",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/BeardDesign1/small-members-tab/themes/small-members-tab.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Discord ReBorn",
+            "author": "Zerthox",
+            "description": "Amber",
+            "url": "https://raw.githubusercontent.com/Zerthox/DiscordReBorn/master/DiscordReBorn_Amber.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Discord ReBorn",
+            "author": "Zerthox",
+            "description": "Amethyst",
+            "url": "https://raw.githubusercontent.com/Zerthox/DiscordReBorn/master/DiscordReBorn_Amethyst.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Discord ReBorn",
+            "author": "Zerthox",
+            "description": "Emerald",
+            "url": "https://raw.githubusercontent.com/Zerthox/DiscordReBorn/master/DiscordReBorn_Emerald.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Discord ReBorn",
+            "author": "Zerthox",
+            "description": "Remove Shadows",
+            "url": "https://raw.githubusercontent.com/Zerthox/DiscordReBorn/master/DiscordReBorn_Remove_Shadows.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Discord ReBorn",
+            "author": "Zerthox",
+            "description": "Ruby",
+            "url": "https://raw.githubusercontent.com/Zerthox/DiscordReBorn/master/DiscordReBorn_Ruby.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Discord ReBorn",
+            "author": "Zerthox",
+            "description": "Sapphire",
+            "url": "https://raw.githubusercontent.com/Zerthox/DiscordReBorn/master/DiscordReBorn_Sapphire.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Akame",
+            "author": "llcoll",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/llcoll/Discord-Themes/master/Themes/Akame/Akame.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Overwatch",
+            "author": "Matt",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/Matthaz/Overwatch_theme/master/Overwatch.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Shiny Octo Waffle",
+            "author": "Kappa123",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/PepeLUL/Shiny-Octo-Waffle-Theme/master/Shiny.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Material Design",
+            "author": "BeardDesign",
+            "description": "http://www.beard-design.com/discord-material-theme.html",
+            "url": "https://raw.githubusercontent.com/BeardDesign1/Material-design-theme/themes/Beard's-Material-theme-for-Discord.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Esdeath",
+            "author": "llcoll",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/llcoll/Discord-Themes/master/Themes/Esdeath/Esdeath.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Space Nova",
+            "author": "Narugokyu",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/Narugokyu/nova-theme/master/space_nova.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Re:Zero",
+            "author": "TimcanpyCC",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/CurimuChizu/CC-Themes/master/CC-Themes/ReZero.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Witcher 3",
+            "author": "Mitchell",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/jadeonking/Witcher-3-Theme-for-Discord/master/Witcher3.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Dat Discord",
+            "author": "IceCleaver",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/Viniuau/Dat-Discord/master/Dat%20Discord.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Full Light",
+            "author": "maple",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/mrmaple240/Full-Light-Theme/master/FullLightTheme.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Red n Black",
+            "author": "TimcanpyCC",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/CurimuChizu/CC-Themes/master/CC-Themes/Red.n.Black.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Shades of Red",
+            "author": "Prominency",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/trueprominency/Shades-of-Red-Theme/master/shades-of-red.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Thin Dark",
+            "author": "Snazzah",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/SnazzyPine25/Better-Discord-Themes/master/Themes/Thin-Dark/ThinDark.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Clear Discord",
+            "author": "Dddsasul",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/Dddsasul/TeamKappa-theme/master/ClearDiscord.theme.css",
+            "preview": ""
+        }, 
+        {
+            "name": "Casual Dark",
+            "author": "Quietness",
+            "description": "",
+            "url": "https://raw.githubusercontent.com/Quietess/Casual-Dark/master/CasualDark.css",
+            "preview": ""
+        }
+    ]
 }

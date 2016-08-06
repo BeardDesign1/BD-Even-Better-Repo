@@ -149,7 +149,7 @@ evenBetterRepo.prototype.load = function(){
     evenBetterRepo.installPlugin = function(url){
         var pluginName = url.substr(url.lastIndexOf('/') + 1);
         
-        var dest = process.env.APPDATA + "\\BetterDiscord\\themes\\" + url.substr(url.lastIndexOf('/') + 1);
+        var dest = process.env.APPDATA + "\\BetterDiscord\\plugins\\" + url.substr(url.lastIndexOf('/') + 1);
         var file = require('fs').createWriteStream(dest);
 
         require('https').get(url, function(response) {

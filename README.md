@@ -21,9 +21,14 @@ Go into your BetterDiscord plugins list, and click "Explore" under the "Even Bet
   * Anything undocumented will be ignored until full documentation is provided
   * **TEST** your code first.  Do not blindly contribute.
   * Do NOT do a pull request into master, do it on **[dev](https://github.com/IRDeNial/BD-Even-Better-Repo/tree/dev)** instead.
-    * Your pull requests will be merged into master at each itteration if accepted.
+    * Your pull requests will be merged into master at each iteration if accepted.
 
 ## Images
-![http://i.imgur.com/M8Wnm9U.png](http://i.imgur.com/M8Wnm9U.png)
-![http://i.imgur.com/9RPVKud.png](http://i.imgur.com/9RPVKud.png)
-![http://i.imgur.com/YHcmfJY.png](http://i.imgur.com/YHcmfJY.png)
+![https://share.md5.xyz/UB31470446748r8w.png](https://share.md5.xyz/UB31470446748r8w.png)
+![https://share.md5.xyz/5xV1470446762yUj.png](https://share.md5.xyz/5xV1470446762yUj.png)
+
+## To Do List
+* Make theme & plugin list look better (ebr.css)
+* More error catching!
+* Mac implementation (Later)
+* Linux implementation (Even later)
